@@ -124,10 +124,9 @@ def run_network_on_image():
     print('done ')
 
 
-def run_network_on_all_pairs():
+def run_network_on_all_pairs(num_seqs=40):
 
     import make_seqs
-    num_seqs=10
     ims1, ims1a, ims2=make_seqs.make_seqs(slength=6,num_seqs=num_seqs, from_font=False)
 
     input_var1 =  T.tensor4('inputs')

@@ -1,5 +1,4 @@
 import mnist
-import mnist_new
 import numpy as np
 import scipy.misc
 import crop

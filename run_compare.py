@@ -211,4 +211,4 @@ def main_new(num_epochs=500, num_train=0, use_existing=False, rotate_angle=0):
 
 #main_new(num_epochs=0,num_train=20000,use_existing=True, rotate_angle=20)
 #compare.run_network_on_image()
-compare.run_network_on_all_pairs()
+compare.run_network_on_all_pairs(num_seqs=40)
